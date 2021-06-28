@@ -31,7 +31,7 @@ Personal qualities:
 7. Java(Basic);
 8. Java Spring;
 9. PostgresSql;
-10. English (Pre-intermediate);
+10. English (Pre-intermediate); 
 
 # **Contacts:**
 
