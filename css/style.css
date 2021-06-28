@@ -1,0 +1,159 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+hr {
+  border: none; /* Убираем границу */
+  background-color: rgb(22, 168, 22); /* Цвет линии */
+  color: red; /* Цвет линии для IE6-7 */
+  height: 3px; /* Толщина линии */
+}
+#Name {
+  font-style: italic;
+  font-family: monospace;
+  font-size: 35px;
+  color: black;
+  margin-left: 300px;
+}
+#spec {
+  font-style: italic;
+  font-family: monospace;
+  font-size: 20px;
+  color: rgb(22, 168, 22);
+  margin-left: 292px;
+  margin-top: -25px;
+}
+#header__icon {
+  margin-left: -40px;
+  margin-top: -90px;
+}
+#wrapper {
+  background-color: white;
+  width: 800px;
+  height: 850px;
+  margin: auto auto;
+  border-radius: 50px;
+}
+header {
+  height: 220px;
+  border-top: 1px solid black;
+  width: 600px;
+  position: relative;
+  left: 100px;
+  border-bottom: 3px solid rgb(22, 168, 22);
+}
+
+main {
+  width: 798px;
+
+  height: 700px;
+}
+
+.left__content {
+  margin-left: 50px;
+
+  width: 300px;
+  float: left;
+}
+.left__content h2,
+.right__content h2 {
+  font-style: italic;
+  font-family: monospace;
+  font-size: 26px;
+  color: black;
+}
+.left__content p,
+.right__content p,
+ul {
+  font-size: 18px;
+}
+/*Contacts */
+#item1 {
+  list-style: none;
+  background: url("../img/34px wat.png") no-repeat 0 50%;
+  padding-left: 50px;
+}
+#item2 {
+  list-style: none;
+  background: url("../img/discord.png") no-repeat 0 50%;
+  padding-left: 50px;
+}
+#item3 {
+  list-style: none;
+  background: url("../img/Gmail.png") no-repeat 0 50%;
+  padding-left: 50px;
+}
+#item4 {
+  list-style: none;
+  background: url("../img/GitHub1.png") no-repeat 0 50%;
+  padding-left: 50px;
+}
+#GitHubLink:visited,
+#GitHubLink:link {
+  text-decoration: none;
+  color: rgb(22, 168, 22);
+}
+#GitHubLink:hover {
+  text-decoration: underline;
+}
+
+.item {
+  padding: 5px;
+  line-height: 40px;
+}
+/*/Contacts */
+.right__content {
+  margin-right: 50px;
+
+  width: 300px;
+  float: right;
+}
+#footer {
+  position: relative;
+  top: 520px;
+  left: 100px;
+  width: 600px; /* Ширина слоя */
+  border-top: 3px solid rgb(22, 168, 22);
+}
+
+p.paragraph {
+  text-indent: 20px;
+}
+p {
+  line-height: 24px;
+  text-align: justify;
+}
+#contacts {
+  margin-top: 70px;
+}
+
+ul.hrr {
+  right: 100px;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+ul.hrr li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 50px; /* Отступ слева */
+}
+#hobbys1 {
+  list-style: none;
+  background: url("../img/Conputer1.png") no-repeat 0 50%;
+  padding: 32px;
+}
+#hobbys2 {
+  list-style: none;
+  background: url("../img/Games.png") no-repeat 0 50%;
+  padding: 32px;
+}
+#hobbys3 {
+  list-style: none;
+  background: url("../img/Videos.png") no-repeat 0 50%;
+  padding: 32px;
+}
+#hobbys4 {
+  list-style: none;
+  background: url("../img/books.png") no-repeat 0 50%;
+  padding: 32px;
+}
