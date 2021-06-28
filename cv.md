@@ -10,7 +10,7 @@ secondary education - Lyceum of the city of Slonim
 
 Date of birth: 01.04.2001;
 
-Age: 19;
+Age: 19;   
 
 Personal qualities:
 
