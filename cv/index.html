@@ -4,8 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="stylesheet" href="./style.css" />
+
     <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,16 +15,18 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header class="header">
       <div class="wrapper">
-        <nav>
-          <ul class="header-nav">
+        <nav class="header-nav">
+          <ul class="header-list">
             <li class="header-item"><a href="" class="header-link"></a></li>
             <li class="header-item"><a href="" class="header-link"></a></li>
             <li class="header-item"><a href="" class="header-link"></a></li>
@@ -33,14 +36,99 @@
         </nav>
       </div>
     </header>
-    <div class="container">
+    <main class="main">
       <section class="welcome">
         <div class="welcome-name">
+          <figure class="me">
+            <img class="me" src="./img/me.jpg" alt="me" />
+          </figure>
           <h1 class="title">Vlad Kocherga</h1>
+
           <p class="welcome-par">Junior Web Developer</p>
         </div>
       </section>
-      <section class="about"></section>
-    </div>
+      <section class="about">
+        <div class="about-title">
+          <h2 class="section-title-name">About</h2>
+        </div>
+
+        <div class="about-text section-text">
+          <div class="about-me section-name">
+            <h3 class="h2-title">About me:</h3>
+            <hr class="line" />
+
+            <p class="par-text">Date of birth: 01.04.2001</p>
+            <p class="par-text">Studying, 4rd year student</p>
+            <p class="par-text">Age: 20</p>
+          </div>
+          <div class="about-me section-name">
+            <h2 class="h2-title">Education:</h2>
+            <hr class="line" />
+            <p class="par-text">
+              Secondary education - Lyceum of the city of Slonim
+            </p>
+            <p class="par-text">
+              2018-2022 International University Mitso, specialty 'Information
+              systems and technologies'
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="about my-resume">
+        <div class="about-title my-resume-title color-grey">
+          <h2 class="section-title-name color-text-orange">My resume</h2>
+        </div>
+        <div class="about-text section-text">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/NZ0CtR8N8zM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="about skills">
+        <div class="about-title">
+          <h2 class="section-title-name">My skills</h2>
+        </div>
+        <div class="about-text section-text">
+          <div class="about-me section-name">
+            <h3 class="h2-title">attainments</h3>
+            <hr class="line" />
+
+            <ul class="skills">
+              <li class="skills-item">Excel</li>
+              <li class="skills-item">1C</li>
+              <li class="skills-item">Computer networks</li>
+              <li class="skills-item">English (Pre-intermediate)</li>
+            </ul>
+          </div>
+          <div class="about-me section-name">
+            <h2 class="h2-title">Code skills:</h2>
+            <hr class="line" />
+            <ul class="skills">
+              <li class="skills-item">Html, CSS</li>
+              <li class="skills-item">Js</li>
+              <li class="skills-item">Java(basic)</li>
+              <li class="skills-item">Java Spring(basic)</li>
+              <li class="skills-item">Mysql</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="about piano">
+        <div class="about-title my-resume-title color-grey">
+          <h2 class="section-title-name color-text-orange">My project</h2>
+        </div>
+        <div class="about-text section-text">
+          <figure class="virtual-piano">
+            <img src="./img/virtual-piano.png" alt="" class="piano-photo" />
+          </figure>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
