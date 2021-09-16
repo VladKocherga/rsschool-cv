@@ -1,6 +1,7 @@
 p {
   color: white;
 }
+
 .wrapper {
   max-width: 800px;
 }
@@ -36,6 +37,9 @@ p {
   text-align: justify;
   letter-spacing: 0.5px;
   max-width: 300px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .par-text {
@@ -80,7 +84,6 @@ p {
   padding-top: 20px;
 }
 /*//section welcome*/
-
 
 /*section about*/
 .about {
@@ -134,5 +137,45 @@ p {
   list-style-type: disc;
 }
 /*my project*/
+.piano-project-about {
+}
+.virtual-piano {
+  width: 200px;
+  height: 200px;
+  background: url("./img/virtual-piano1.png") no-repeat center;
+}
+.virtual-piano:hover {
+}
+.piano-photo {
+}
+.piano-project-about {
+  display: flex;
+  column-gap: 200px;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.piano-text {
+  text-indent: 25px;
+}
+.piano-item {
+  font-family: "Montserrat", sans-serif;
 
+  font-size: 28px;
+}
 /*/my project*/
+.orange {
+  background-color: rgba(255, 166, 0, 0.61);
+}
+.code {
+  max-width: 600px;
+}
+/*footer*/
+.footer {
+  width: 100%;
+  background: #272727;
+  height: 200px;
+}
+/*/footer*/
+.phone {
+  fill: red;
+}

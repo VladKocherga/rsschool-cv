@@ -21,6 +21,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </head>
   <body>
     <header class="header">
@@ -62,7 +70,7 @@
             <p class="par-text">Age: 20</p>
           </div>
           <div class="about-me section-name">
-            <h2 class="h2-title">Education:</h2>
+            <h3 class="h2-title">Education:</h3>
             <hr class="line" />
             <p class="par-text">
               Secondary education - Lyceum of the city of Slonim
@@ -107,7 +115,7 @@
             </ul>
           </div>
           <div class="about-me section-name">
-            <h2 class="h2-title">Code skills:</h2>
+            <h3 class="h2-title">Code skills:</h3>
             <hr class="line" />
             <ul class="skills">
               <li class="skills-item">Html, CSS</li>
@@ -121,14 +129,104 @@
       </section>
       <section class="about piano">
         <div class="about-title my-resume-title color-grey">
-          <h2 class="section-title-name color-text-orange">My project</h2>
+          <h2 class="section-title-name color-text-orange">
+            My project - Virtual Piano
+          </h2>
         </div>
-        <div class="about-text section-text">
-          <figure class="virtual-piano">
-            <img src="./img/virtual-piano.png" alt="" class="piano-photo" />
-          </figure>
+        <div class="about-text section-text orange">
+          <div class="piano-project-about">
+            <div class="piano-left">
+              <h3 class="h2-title">Virtual piano</h3>
+              <hr class="line" />
+              <a
+                href="https://rolling-scopes-school.github.io/vladkocherga-JSFE2021Q1/virtual-piano/"
+                class="piano-link"
+                target="_blank"
+              >
+                <figure class="virtual-piano"></figure>
+              </a>
+            </div>
+            <div class="piano-right">
+              <h3 class="h2-title piano-title">About piano</h3>
+              <hr class="line" />
+              <p class="par-text piano-text">
+                The page displays the piano keys.next to the piano keys, either
+                the names of the notes corresponding to these keys are displayed
+                (the sharp alteration sign is used above the black keys), or the
+                letters of the keyboard keys, when clicked on which they sound.
+                What is displayed at the moment depends on the state of the
+                Notes / Letters switch. When clicking on letters or notes, there
+                should be no sound
+              </p>
+            </div>
+            <div class="piano-foot">
+              <h3 class="h2-title piano-title">Technology</h3>
+              <hr class="line" />
+              <ul class="piano-item">
+                <li class="skills-item">html,css,js</li>
+                <li class="skills-item">working with the DOM</li>
+                <li class="skills-item">work with sound</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
+      <section class="about code-example">
+        <div class="about-title">
+          <h2 class="section-title-name">Code example</h2>
+        </div>
+        <div class="about-text section-text">
+          <div class="about-me section-name">
+            <pre class="code"> <code class="html">function nicknameGenerator(x){
+              function rgb(r,g,b){
+                function decToHex(c){
+                  if (c>255) return 'FF';
+                  else if (c<0) return '00';
+                  else 
+                    return c
+                  .toString(16)
+                  .padStart(2,'0')
+                  .toUpperCase();
+                }
+                return decToHex(r) + decToHex(g)+decToHex(b);
+              }
+           } </code></pre>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <nav class="navigation-footer">
+          <ul class="footer-nav">
+            <li class="footer-item">
+              <a href="#" class="footer-link"
+                ><svg class="socials-phone" width="100" height="100">
+                  <use xlink:href="./svg/phone.svg#phone"></use></svg
+              ></a>
+            </li>
+            <li class="footer-item">
+              <a
+                href="https://github.com/VladKocherga"
+                target="_blank"
+                class="footer-link"
+                ><svg class="socials-github" width="100" height="100">
+                  <use xlink:href="./svg/github.svg#github"></use></svg
+              ></a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-link"
+                ><svg class="socials-youtube" width="48" height="48">
+                  <use xlink:href="./assets/svg/twitter.svg#twitter"></use></svg
+              ></a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-link"
+                ><svg class="socials-youtube" width="48" height="48">
+                  <use xlink:href="./assets/svg/twitter.svg#twitter"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </main>
   </body>
 </html>
