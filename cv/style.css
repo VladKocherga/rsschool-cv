@@ -1,0 +1,277 @@
+p {
+  color: white;
+}
+
+.section-title-name {
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding-top: 45%;
+}
+.line {
+  height: 5px;
+  border: none;
+  background-color: #ffc963;
+  border-radius: 15%;
+}
+.section-name {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 24px;
+  color: black;
+  font-weight: 400;
+}
+.h2-title {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 28px;
+  color: black;
+  font-weight: 600;
+}
+.par-text {
+  margin-top: 10px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  max-width: 300px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.par-text {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+/*header*/
+
+/*/header*/
+/*container*/
+.wrapper {
+  max-width: 1600px;
+
+  border-radius: 50px;
+  border: 1px solid black;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.welcome {
+  height: 700px;
+  width: 100%;
+
+  background: #272727;
+}
+
+/*container*/
+/*section welcome*/
+.welcome-name {
+  text-align: center;
+}
+.title {
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+  color: white;
+  padding-top: 5%;
+}
+.welcome-par {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 20px;
+}
+/*//section welcome*/
+
+/*section about*/
+.about {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.me {
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.about-title {
+  background-color: rgba(255, 166, 0, 0.61);
+  width: 50%;
+  height: 100%;
+}
+.about-text {
+  background-color: #f5f5f5;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-me {
+  padding: 50px;
+}
+
+/*about*/
+/*my video*/
+
+.color-grey {
+  background-color: #f5f5f5;
+}
+.color-text-orange {
+  color: rgba(255, 166, 0, 0.61);
+}
+/*/my video*/
+/*section skills*/
+
+.skills-item {
+  margin-top: 10px;
+}
+/*/skills*/
+.skills-list {
+  display: flex;
+}
+.skills-item {
+  list-style-type: circle;
+}
+.skills-item {
+  list-style-type: disc;
+}
+/*my project*/
+
+.virtual-piano {
+  width: 200px;
+  height: 200px;
+  background: url("./img/virtual-piano1.png") no-repeat center;
+}
+
+.piano-project-about {
+  display: flex;
+  column-gap: 100px;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.piano-text {
+  text-indent: 25px;
+}
+.piano-item {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 28px;
+}
+/*/my project*/
+.orange {
+  background-color: rgba(255, 166, 0, 0.61);
+}
+.code {
+  max-width: 600px;
+}
+/*footer*/
+.footer {
+  width: 100%;
+  background: #272727;
+  min-height: 200px;
+}
+.socials-footer {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-item {
+  margin-left: 50px;
+}
+/*/footer*/
+.phone {
+  fill: red;
+}
+.kekw {
+  position: relative;
+}
+.window:hover::before,
+.window:focus::before,
+.window:active::before {
+  cursor: pointer !important;
+  content: "+375293271530";
+  position: absolute;
+
+  top: 130px;
+  right: -5px;
+  background-color: #ffba10;
+  border-radius: 10px;
+  padding: 5px;
+}
+.window {
+  cursor: help;
+}
+.socials-github {
+  fill: #fabc3d;
+}
+.socials-github:hover,
+.socials-github:focus {
+  fill: #f5f5f5;
+}
+.footer-title {
+  font-size: 50px;
+}
+.socials-footer {
+  padding-top: 50px;
+  display: flex;
+}
+.socials-vk {
+  fill: #fabc3d;
+  stroke: blue;
+}
+.socials-vk:hover,
+.socials-vk:focus {
+  fill: #f5f5f5;
+  stroke: red;
+}
+/*/footer*/
+
+/*header*/
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*header*/
+.header {
+  width: 100%;
+  padding-top: 15px;
+  background: #272727;
+  margin: 0 auto;
+}
+.header-link {
+  text-decoration: none;
+  color: #fabc3d;
+}
+.header-link:hover,
+.header-link:focus {
+  color: white;
+}
+.header-item {
+  margin-left: 20px;
+}
+
+.header-nav {
+  max-width: 800px;
+  margin: 0 auto;
+
+  padding-bottom: 30px;
+}
+
+.section {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.slider {
+  background: url("./img/slider1.jpg") no-repeat center;
+  width: 300px;
+}
+.vidos {
+  width: 100%;
+  height: 100%;
+}
