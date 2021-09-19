@@ -84,9 +84,9 @@
   }
   .menu-btn {
     display: block;
-    width: 50px;
-    height: 50px;
-    background-color: red;
+    width: 70px;
+    height: 70px;
+    background-color: #fabc3d;
     border-radius: 50%;
   }
   .burger-line,
@@ -94,19 +94,44 @@
   .burger-line::after {
     position: absolute;
     top: 40px;
-    width: 20px;
-    height: 2px;
-    margin-left: 15px;
-    background-color: #222;
+    width: 50px;
+    height: 5px;
+    margin-left: 10px;
+    margin-top: 29px;
+    background-color: black;
   }
+
   .burger-line::before,
   .burger-line::after {
     content: "";
+    transition: 0.5s;
   }
   .burger-line::before {
-    transform: translate(-15px, -50px);
+    transform: translate(-10px, -85px);
   }
   .burger-line::after {
-    transform: translate(-15px, -30px);
+    transform: translate(-10px, -53px);
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-active {
+    display: block;
+  }
+  .menu-btn:hover {
+    background-color: white;
+  }
+  .btn-active span {
+    height: 0px;
+  }
+  .btn-active span:before {
+    top: -28px;
+    left: -10px;
+    transform: rotate(-45deg);
+  }
+  .btn-active span:after {
+    top: -28px;
+    left: -10px;
+    transform: rotate(45deg);
   }
 }
