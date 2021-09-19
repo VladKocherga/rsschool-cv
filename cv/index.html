@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -240,7 +241,7 @@
               function rgb(r,g,b){
                 function decToHex(c){
                   if (c>255) return 'FF';
-                  else if (c<0) return '00';
+                  else if (c < 0) return '00';
                   else 
                     return c
                   .toString(16)
