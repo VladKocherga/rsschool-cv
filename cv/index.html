@@ -109,11 +109,9 @@
           </div>
           <div class="about-text section-text video-res">
             <iframe
-              width="100%"
-              height="100%"
+              class="vidos"
               src="https://www.youtube.com/embed/NZ0CtR8N8zM"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -241,7 +239,7 @@
               function rgb(r,g,b){
                 function decToHex(c){
                   if (c>255) return 'FF';
-                  else if (c < 0) return '00';
+                  else if (0>c) return '00';
                   else 
                     return c
                   .toString(16)
