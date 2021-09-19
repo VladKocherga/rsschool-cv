@@ -267,3 +267,7 @@ p {
 html {
   scroll-behavior: smooth;
 }
+.slider {
+  background: url("./img/slider1.jpg") no-repeat center;
+  width: 300px;
+}
