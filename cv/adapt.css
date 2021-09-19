@@ -4,12 +4,11 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 661px) {
   .section-title-name {
     font-size: 40px;
   }
-  .about {
-  }
+
   .piano {
     min-height: 1300px;
   }
